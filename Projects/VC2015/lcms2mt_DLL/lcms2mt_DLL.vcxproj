@@ -232,7 +232,7 @@
     <ClCompile Include="..\..\..\src\cmsxform.c" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\src\lcms2mt.def">
+    <CustomBuild Include="..\..\..\src\lcms2.def">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </CustomBuild>
   </ItemGroup>
